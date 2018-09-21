@@ -1,0 +1,40 @@
+Key store password：gdx9234
+Key password：gdx9234
+Key alias：gdx production signature
+
+
+别名: gdx production signature
+创建日期: 2015年4月3日
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=Cynovan Technologies, OU=Cynovan Technologies, O=Cynovan Technologies, L=Shenzhen, ST=Guangdong, C=CN
+发布者: CN=Cynovan Technologies, OU=Cynovan Technologies, O=Cynovan Technologies, L=Shenzhen, ST=Guangdong, C=CN
+序列号: 7cb6f85e
+生效时间: Thu Mar 26 18:21:22 CST 2015, 失效时间: Mon Mar 19 18:21:22 CST 2040
+证书指纹:
+         SHA1: 07:86:DC:4F:37:AD:A4:2D:BA:C1:6F:27:ED:C0:08:EA:E5:0B:A0:5A
+         SHA256: E6:01:34:1E:6C:37:77:B3:50:FC:5C:16:4C:D1:57:19:2C:FC:E1:F0:F4:FB:A1:DC:07:EC:38:5E:BB:9E:3E:3E
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
+版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: B1 60 8B 6A F1 57 01 C5   E3 5F 23 9E 49 1A CD B5  .`.j.W..._#.I...
+0010: B9 3A B4 14                                        .:..
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+
+Warning:
+JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeystore prod.jks -destkeystore prod.jks -deststoretype pkcs12" 迁移到行业标准格式 PKCS12。
